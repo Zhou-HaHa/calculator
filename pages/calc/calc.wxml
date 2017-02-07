@@ -1,0 +1,39 @@
+<view class="content">
+    <view class="screen-container">
+        <view class="screen-content">
+            {{ screenData }}
+        </view>
+    </view>
+    <view class="btn-container">
+        <view class="btnGroup">
+            <view id="{{idce}}" bindtap="clickBtn">CE</view>
+            <view id="{{idc}}" bindtap="clickBtn">C</view>
+            <view id="{{idb}}" bindtap="clickBtn">Back</view>
+            <view id="{{idd}}" bindtap="clickBtn">÷</view>
+        </view>
+        <view class="btnGroup">
+            <view id="{{id7}}" bindtap="clickBtn">7</view>
+            <view id="{{id8}}" bindtap="clickBtn">8</view>
+            <view id="{{id9}}" bindtap="clickBtn">9</view>
+            <view id="{{idm}}" bindtap="clickBtn">×</view>
+        </view>
+        <view class="btnGroup">
+            <view id="{{id4}}" bindtap="clickBtn">4</view>
+            <view id="{{id5}}" bindtap="clickBtn">5</view>
+            <view id="{{id6}}" bindtap="clickBtn">6</view>
+            <view id="{{idmi}}" bindtap="clickBtn">-</view>
+        </view>
+        <view class="btnGroup">
+            <view id="{{id1}}" bindtap="clickBtn">1</view>
+            <view id="{{id2}}" bindtap="clickBtn">2</view>
+            <view id="{{id3}}" bindtap="clickBtn">3</view>
+            <view id="{{ida}}" bindtap="clickBtn">+</view>
+        </view>
+        <view class="btnGroup">
+            <view id="{{idv}}" bindtap="clickBtn">+/-</view>
+            <view id="{{id0}}" bindtap="clickBtn">0</view>
+            <view id="{{idp}}" bindtap="clickBtn">.</view>
+            <view id="{{ide}}" bindtap="clickBtn">=</view>
+        </view>
+    </view>
+</view>

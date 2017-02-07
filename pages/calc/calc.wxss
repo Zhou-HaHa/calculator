@@ -1,0 +1,45 @@
+.content {
+    height: 100%;
+    dispaly: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeea;
+    font-family: "Microsoft YaHei";
+    overflow-x: hidden;
+}
+.screen-container {
+    width: 100%;
+    margin-bottom: 30rpx;
+    background-color: white;
+}
+.btn-container {
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+.screen-content {
+	width: 100%;
+	line-height: 280rpx;
+	text-align: right;
+	font-size: 65rpx;
+	border: 1px solid;
+	box-sizing: border-box;
+}
+.btnGroup {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	height: 5rem;
+}
+.btnGroup view {
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #e6e2df;
+	padding: 1rpx;
+	font-size: 65rpx;
+}
+.btnGroup view:active {
+	background-color: #a8a1a1;
+}
